@@ -1,4 +1,6 @@
-# spacer
+# Spacer
+
+Fetch photos from NASA
 
 ## Project setup
 ```
