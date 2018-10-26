@@ -24,6 +24,20 @@
    margin: 0;
    padding: 0;
    font-family: 'Montserrat', sans-serif;
+   color: #fff;
+   -webkit-font-smoothing: antialiased;
+   text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
  }
+
+.fade-enter-active, 
+.fade-leave-active {
+  transition: opacity .3s ease;
+}
+
+.fade-enter, 
+.fade-leave-to
+/* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
 
 </style>

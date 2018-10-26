@@ -18,15 +18,20 @@ export default {
      justify-content: center;
      align-items: center;
      text-align: center;
+     max-width: 600px;
  }
 
  .claim {
      font-size: 50px;
      margin: 0;
+     @media(min-width: 767px) {
+         font-size: 80px;
+     }
  }
 
  .subclaim {
      margin: 20px 0 0 0;
-     font-size: 13px;
+     font-size: 14px;
+     font-weight: 400;
  }
 </style>
