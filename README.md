@@ -2,6 +2,8 @@
 
 Fetch photos from NASA
 
+url: https://romantic-mccarthy-123133.netlify.com/#/
+
 ## Project setup
 ```
 npm install
